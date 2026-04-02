@@ -181,3 +181,50 @@ a{
     padding: 20px 0;
     text-align: center;
 }
+
+.main_header a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.main_header ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    
+}
+.main_header button.hamburguer {
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 25px;
+    height: 20px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.harburguer {
+  display: none !important;
+}
+
+@media (max-width: 768px) {
+  .harburguer{
+    display: block !important;
+  }
+  .menu-nav{
+    display: none;
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    text-align: center;
+  }
+  .menu-nav .aberto{
+    display: block;
+  }
+
+}
