@@ -26,6 +26,16 @@ a {
   background-color: #fff;
   box-shadow: 0 2px 10px rgba(0,0,0,0.1);
 }
+.menu-matricula {
+  background-color: #00A8E8;
+  color: #fff !important;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 16px;
+  display: inline-block;
+  width: auto;
+}
 
 .main_header a {
   color: rgb(0, 0, 0);
@@ -37,6 +47,7 @@ a {
 .main_header ul {
   list-style: none;
   display: flex;
+
   margin: 0;
   padding: 0;
 }
@@ -363,6 +374,9 @@ a {
     padding: 10px 0;
     color: #333;
     display: block;
+  }
+    .menu-matricula {
+    display: none;
   }
 
   .hamburguer {
