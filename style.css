@@ -1,0 +1,183 @@
+@charset "UTF-8";
+
+.menucontainer {
+    position: absolute;
+    display: inline-block;
+    right: 0;
+    background-color: #ffffff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.header {
+  display: flex;
+  justify-content: space-between; /* Joga o logo pra esquerda e o menu pra direita */
+  align-items: center;
+  padding: 10px 20px;
+}
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+.plans {
+
+    background-color: #F5F5F5;
+    width: 240px;
+    height: 480px;
+    border: 3px solid;
+    border-radius: 10px;
+    text-align: center;
+    justify-content: space-between;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.plans h2 {
+    color : transparent;
+    color: #003366;
+    -webkit-text-stroke: 2px #000000;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.style_plans {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+  .Logo_texto {
+    font-family: 'Poppins', sans-serif;
+    font-size: 34px;
+    font-weight: bold;
+    color: #333;
+  }
+  .Logo_texto span {
+    color: #00A8E8; /* Cor de destaque só no 'Life' */
+  }
+
+  .plans h3 {
+    color: #00A8E8;
+    font-size: 30px;
+    margin: 10px 0;
+  }
+
+  .plans button {
+    background-color: #00A8E8;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+    font-weight: bold;
+    transition: transform 0.2s;
+    align-self: center; 
+    margin-top: auto;
+    width: 80%; /* Opcional: define uma largura para o botão */
+
+  }
+
+  .title h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    color: #333;
+    text-align: center;
+    margin-top: 40px;
+  }
+
+.login {
+    background-color: #00A8E8;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: transform 0.2s;
+    display: flex;
+    
+}
+.main_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+a{
+   display: block;
+   background-color: transparent;
+    color: white;
+    padding: 0px 20px;
+    text-align: center;
+    margin: 10px auto;
+    text-decoration: none;
+}
+
+
+.hero-content {
+  max-width: 550px;
+}
+
+.hero-content h2 {
+  font-size: 28px;
+  color: #fff;
+  font-weight: 400;
+}
+
+.hero-content h1 {
+  font-size: 52px;
+  color: #00A8E8;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.hero-content p {
+  font-size: 16px;
+  color: #eee;
+  margin-bottom: 32px;
+}
+
+.btn-hero {
+  background-color: #00A8E8;
+  color: #000;
+  padding: 14px 32px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+}
+.hero {
+  background-image: linear-gradient(to right, rgba(0,0,0,0.75), rgba(0,0,0,0.1)), url('Imagens/img1_correndo.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  padding: 0 60px;
+}
+
+.footer-container {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+.footer-bottom
+{
+    border-top: 2px solid #003366;
+    padding: 20px 0;
+    text-align: center;
+}
