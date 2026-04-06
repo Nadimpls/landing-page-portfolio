@@ -27,7 +27,7 @@ a {
   left: 0;
   right: 0;
   z-index: 1000;
-  background-color: #fff;
+  background-color: transparent;
   box-shadow: 0 2px 10px rgba(0,0,0,0.1);
 }
 .menu-matricula {
@@ -76,6 +76,14 @@ a {
 
 .Logo_texto span {
   color: #00A8E8;
+}
+
+.menu-nav {
+  display:none;
+}
+
+.menu-desktop {
+  display: flex;
 }
 
 
@@ -358,6 +366,10 @@ a {
     padding: 12px 16px;
   }
 
+.menu-desktop {
+    display: none;
+  }
+
   .menu-nav {
     display: none;
     position: absolute;
@@ -382,7 +394,7 @@ a {
 
   .menu-nav a {
     padding: 10px 0;
-    color: #333;
+    color: #000;
     display: block;
   }
     .menu-matricula {
@@ -421,6 +433,8 @@ a {
   .hero-content h2 {
     font-size: 20px;
   }
+
+
 }
 
 /* ========== FADE IN ========== */

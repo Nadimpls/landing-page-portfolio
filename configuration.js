@@ -2,7 +2,7 @@ const botao = document.querySelector('.hamburguer');
 const menu = document.querySelector('.menu-nav');
 const header = document.querySelector('.main_header');
 const logo = document.querySelector('.Logo_texto');
-const menuLinks = document.querySelectorAll('.menu-nav a');
+const menuLinks = document.querySelectorAll('.menu-desktop a');
 
 botao.addEventListener('click', () => {
   menu.classList.toggle('aberto');
@@ -37,3 +37,4 @@ document.querySelectorAll('.plans, .aula-card, .hero-content, .title').forEach(e
 });
 
 logo.style.color = '#fff';
+
